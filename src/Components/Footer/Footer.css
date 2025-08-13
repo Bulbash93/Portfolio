@@ -1,0 +1,41 @@
+.footer {
+  background: black;
+  align-items: center;
+  color: #ccc;  
+  text-align: center;
+}
+
+.logo {
+  font-family: "Bitcount", sans-serif;
+  font-size: 55px;
+  font-style: none;
+  border-bottom: none;
+  text-transform: uppercase;
+  color: #ccc;
+  padding: 0;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-info {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.contact__info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 800px) {
+  .contact__info {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
