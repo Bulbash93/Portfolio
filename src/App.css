@@ -9,3 +9,18 @@ body {
     padding: 0 10px;
     margin: 0 auto;
 }
+
+.button {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(94.06deg, #fd0000db -1.21%, #ff0000 58.66%, #9b0000 116.84%);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #091242;
+}
